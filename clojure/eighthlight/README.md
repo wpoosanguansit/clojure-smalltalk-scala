@@ -1,14 +1,11 @@
 # eighthlight
 
-A Clojure library designed to ... well, that part is up to you.
+This is to solve the card game puzzle.
 
 ## Usage
 
-FIXME
+lein run -f <path to the file>
 
 ## License
 
-Copyright © 2015 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Copyright © 2015
