@@ -1,0 +1,17 @@
+A "concordance" is an alphabetical list of the words present in a text with a count of how
+often each word appears and citations of where each word appears in the text (e.g., page
+number). Write a program -- in the programming language of your choice -- that will
+generate a concordance of an arbitrary text document written in English: the text can be
+read from stdin, and the program should output the concordance to stdout or a file. For
+each word, it should print the count and the sorted list of citations, in this case the
+zero-indexed sentence number in which that word occurs. You may assume that the input
+contains only spaces, newlines, standard English letters, and standard English punctuation
+marks.
+When you are doing profiling or timing, you can use Process.range to generate your inputs to isolate your actual computation from the I/O. Adapting your example:
+
+time { Process.range(0,100000).drop(40000).once.as(true).runLastOr(false).run }
+When I first ran this, it took about 2.2 seconds on my machine, which seems consistent with what you were seeing. After a couple runs, probably after JIT'ing, I was consistently getting around .64 seconds, and in principle, I don't see any reason why it couldn't be just as fast even with I/O (see discussion below).
+
+In my informal testing, the overhead per 'step' of scalaz-stream seems to be about 1-2 microseconds (for instance, try Process.range(0,10000). If you have a pipeline with multiple stages, then each step of the overall stream will consist of several other steps. The way to think about minimizing the overhead of scalaz-stream is just to make sure that you're doing enough work at each step to dwarf any overhead added by scalaz-stream itself. This post has more details on this approach. The line counting example is kind of a worst case, since you are doing almost no work per step and are just counting the steps.
+
+So I would try writing a version of linesR that reads multiple lines per step, and also make sure you do your measurements after JIT'ing.

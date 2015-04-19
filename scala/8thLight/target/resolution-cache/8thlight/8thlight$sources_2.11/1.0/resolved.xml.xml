@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+	<info organisation="8thlight"
+		module="8thlight$sources_2.11"
+		revision="1.0"
+		status="integration"
+		publication="20150417210105"
+	/>
+	<configurations>
+		<conf name="default" visibility="public" description=""/>
+	</configurations>
+	<publications>
+	</publications>
+	<dependencies>
+		<dependency org="org.scala-sbt" name="sbt" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="sbt" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" transitive="false" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.4/">
+			<artifact name="scala-library" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="main" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="main" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="actions" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="actions" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="classpath" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="classpath" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" transitive="false" conf="default->default(compile)">
+			<artifact name="scala-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-lang" name="scala-reflect" rev="2.10.4" transitive="false" conf="default->default(compile)" info.apiURL="http://www.scala-lang.org/api/2.10.4/">
+			<artifact name="scala-reflect" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="launcher-interface" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="launcher-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="interface" rev="0.13.5" transitive="false" conf="default->default(compile)" component="xsbti">
+			<artifact name="interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="io" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="control" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="control" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="completion" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="completion" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="collections" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="collections" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="jline" name="jline" rev="2.11" transitive="false" conf="default->default(compile)">
+			<artifact name="jline" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="api" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="compiler-integration" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="compiler-integration" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="incremental-compiler" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="incremental-compiler" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="logging" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="process" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="process" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="relation" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="relation" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="compile" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="compile" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="persist" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="persist" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-tools.sbinary" name="sbinary_2.10" rev="0.4.2" transitive="false" conf="default->default(compile)">
+			<artifact name="sbinary_2.10" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="classfile" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="classfile" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="compiler-ivy-integration" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="compiler-ivy-integration" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="ivy" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="ivy" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="cross" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="cross" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.ivy" name="ivy" rev="2.3.0" transitive="false" conf="default->default(compile)">
+			<artifact name="ivy" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.jcraft" name="jsch" rev="0.1.46" transitive="false" conf="default->default(compile)">
+			<artifact name="jsch" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="run" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="run" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="task-system" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="task-system" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="tasks" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="tasks" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="tracking" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="tracking" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="cache" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="cache" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="testing" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="testing" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="test-agent" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="test-agent" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="test-interface" rev="1.0" transitive="false" conf="default->default(compile)">
+			<artifact name="test-interface" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="main-settings" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="main-settings" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="apply-macro" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="apply-macro" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="command" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="command" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="logic" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="logic" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="precompiled-2_8_2" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="precompiled-2_8_2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="precompiled-2_9_2" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="precompiled-2_9_2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.scala-sbt" name="precompiled-2_9_3" rev="0.13.5" transitive="false" conf="default->default(compile)">
+			<artifact name="precompiled-2_9_3" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.hanhuy.sbt" name="android-sdk-plugin" rev="1.3.4" transitive="false" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10">
+			<artifact name="android-sdk-plugin" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="asm" name="asm-all" rev="3.3.1" transitive="false" conf="default->default(compile)">
+			<artifact name="asm-all" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sf.proguard" name="proguard-base" rev="4.11" transitive="false" conf="default->default(compile)">
+			<artifact name="proguard-base" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools.build" name="builder" rev="0.12.2" transitive="false" conf="default->default(compile)">
+			<artifact name="builder" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools" name="sdk-common" rev="23.0.2" transitive="false" conf="default->default(compile)">
+			<artifact name="sdk-common" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools" name="sdklib" rev="23.0.2" transitive="false" conf="default->default(compile)">
+			<artifact name="sdklib" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.1.1" transitive="false" conf="default->default(compile)">
+			<artifact name="httpclient" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpcore" rev="4.1" transitive="false" conf="default->default(compile)">
+			<artifact name="httpcore" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-logging" name="commons-logging" rev="1.1.1" transitive="false" conf="default->default(compile)">
+			<artifact name="commons-logging" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-codec" name="commons-codec" rev="1.4" transitive="false" conf="default->default(compile)">
+			<artifact name="commons-codec" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools.layoutlib" name="layoutlib-api" rev="23.0.2" transitive="false" conf="default->default(compile)">
+			<artifact name="layoutlib-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="net.sf.kxml" name="kxml2" rev="2.3.0" transitive="false" conf="default->default(compile)">
+			<artifact name="kxml2" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools" name="common" rev="23.0.2" transitive="false" conf="default->default(compile)">
+			<artifact name="common" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.google.guava" name="guava" rev="15.0" transitive="false" conf="default->default(compile)">
+			<artifact name="guava" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.httpcomponents" name="httpmime" rev="4.1" transitive="false" conf="default->default(compile)">
+			<artifact name="httpmime" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools" name="dvlib" rev="23.0.2" transitive="false" conf="default->default(compile)">
+			<artifact name="dvlib" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.apache.commons" name="commons-compress" rev="1.8.1" transitive="false" conf="default->default(compile)">
+			<artifact name="commons-compress" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools.build" name="builder-model" rev="0.12.2" transitive="false" conf="default->default(compile)">
+			<artifact name="builder-model" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools.ddms" name="ddmlib" rev="23.0.2" transitive="false" conf="default->default(compile)">
+			<artifact name="ddmlib" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools.build" name="manifest-merger" rev="23.0.2" transitive="false" conf="default->default(compile)">
+			<artifact name="manifest-merger" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.android.tools.build" name="builder-test-api" rev="0.12.2" transitive="false" conf="default->default(compile)">
+			<artifact name="builder-test-api" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.squareup" name="javawriter" rev="2.5.0" transitive="false" conf="default->default(compile)">
+			<artifact name="javawriter" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.bouncycastle" name="bcpkix-jdk15on" rev="1.48" transitive="false" conf="default->default(compile)">
+			<artifact name="bcpkix-jdk15on" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="org.bouncycastle" name="bcprov-jdk15on" rev="1.48" transitive="false" conf="default->default(compile)">
+			<artifact name="bcprov-jdk15on" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.github.mpeltonen" name="sbt-idea" rev="1.7.0-SNAPSHOT" transitive="false" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10">
+			<artifact name="sbt-idea" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="commons-io" name="commons-io" rev="2.4" transitive="false" conf="default->default(compile)">
+			<artifact name="commons-io" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+		<dependency org="com.eed3si9n" name="sbt-assembly" rev="0.11.2" transitive="false" conf="default->default(compile)" sbtVersion="0.13" scalaVersion="2.10">
+			<artifact name="sbt-assembly" type="src" ext="jar" conf="sources" e:classifier="sources"/>
+		</dependency>
+	</dependencies>
+</ivy-module>

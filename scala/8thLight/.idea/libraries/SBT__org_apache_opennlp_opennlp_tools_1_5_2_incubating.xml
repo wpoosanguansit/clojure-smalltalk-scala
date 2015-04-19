@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="SBT: org.apache.opennlp:opennlp-tools:1.5.2-incubating">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.opennlp/opennlp-tools/jars/opennlp-tools-1.5.2-incubating.jar!/"/>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.opennlp/opennlp-tools/bundles/opennlp-tools-1.5.2-incubating.jar!/"/>
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.opennlp/opennlp-tools/docs/opennlp-tools-1.5.2-incubating-javadoc.jar!/"/>
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ivy2/cache/org.apache.opennlp/opennlp-tools/srcs/opennlp-tools-1.5.2-incubating-sources.jar!/"/>
+    </SOURCES>
+  </library>
+</component>
