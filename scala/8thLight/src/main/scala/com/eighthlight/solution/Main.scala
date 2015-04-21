@@ -20,7 +20,7 @@ object Main {
     parser.parse(args, Config(input   = "input.txt")) match {
       case Some(config) =>
         println("sample 100 runs -- ")
-        val rl = RandomLine(new File("input.txt"))
+        val rl = RandomLine(new File(config.input))
         for (i <- 1 to 100) {
           println("----------")
           println(rl.generate)
